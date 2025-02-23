@@ -36,8 +36,8 @@ jobs:
           context: .
           push: true
           tags: |
-            testing/welcome:latest
-            testing/welcome:${{ github.event.inputs.tag }}
+            sitidy/welcome:latest
+            sitidy/welcome:${{ github.event.inputs.tag }}
 
 #  deploy-to-vm:
 #    runs-on: ubuntu-latest
