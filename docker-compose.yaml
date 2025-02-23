@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  welcome-app:
+    image: local-testing/welcome
+    build: .
+    ports:
+      - "8000:5000"
+    container_name: welcome-app
